@@ -39,7 +39,7 @@ h1 {
     font-family: helvetica;
     font-size: 20px;
     position: relative;
-    left: 200px;
+    left: 220px;
     top: 30px;
     color:#794646;
 }
@@ -79,11 +79,11 @@ nav ul li a:hover{
 }
 
 .heading-main h2{
-    border-bottom: 2px solid #a2633c;
+    border-bottom: 3px solid #a2633c;
     text-align: center;
     font-family: helvetica;
     color: #524e4e;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .about-me{
@@ -97,6 +97,10 @@ nav ul li a:hover{
     height:80px;
 }
 /******************EDUCATION*********************/
+.heading-main-edu {
+    width: 130px;
+}
+
 .education{
     background-color: #f6f0ed;
     height: 320px;
@@ -128,7 +132,7 @@ nav ul li a:hover{
 
 /*******************WORK EXPERIENCE************************/
 .heading-main-work {
-    width: 250px;
+    width: 310px;
 }
 .company {
     font-weight: bold;
@@ -136,7 +140,7 @@ nav ul li a:hover{
 }
 /*******************SKILLS************************/
 .heading-main-skills {
-    width:150px;
+    width:170px;
 }
 .skills {
     background-color: #f6f0ed;
@@ -147,7 +151,7 @@ nav ul li a:hover{
     margin-top: 35px;
 }
 .heading-main-contact{
-    width: 100px;
+    width: 120px;
 }
 .adresses{
     padding-top: 5px;
