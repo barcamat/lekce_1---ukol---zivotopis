@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.row{
+    width: 70%;
+    margin: 0 auto;
+}
+/*************HEADER****************************/
+header{
+    background-color:bisque;
+}
+
+.cover-photo {
+    display: block;
+    height: 380px;
+    width: 400px;
+    float: left;
+    border-radius: 50%;
+    margin-left:  150px;
+    margin-top: 40px;
+}
+.header-name{
+    background-color: #ebddddd5;
+    padding: 150px 0;
+    color:#603535;
+}
+
+h1 {
+    font-family: 'dancing script', sans-serif;
+    font-size: 100px;
+    position: relative;
+    left:100px;
+}
+
+.cv-name{
+    font-family: helvetica;
+    font-size: 20px;
+    position: relative;
+    left: 200px;
+    top: 30px;
+    color:#794646;
+}
+
+/*****************MENU*******************/
+nav {
+    background-color: #603535;
+}
+
+nav ul{
+    margin: 0px 380px;
+}
+
+nav ul li{
+    list-style-type: none;
+    float:left;
+    text-align: center;
+    width: 150px;
+    line-height: 50px;
+    font-size: 17px;
+    font-family: helvetica;
+}
+nav ul li a {
+    color:rgb(249, 249, 249);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+}
+/******************ABOUT ME******************/
+.heading-main{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width:110px;
+    padding-top:15px;
+}
+
+.heading-main h2{
+    border-bottom: 2px solid #a2633c;
+    text-align: center;
+    font-family: helvetica;
+    color: #524e4e;
+    font-size: 25px;
+}
+
+.about-me{
+    font-family: helvetica;
+    font-size: 15px;
+    color:#524e4e;
+    text-align: justify;
+    width: 800px;
+}
+.about-me p{
+    height:80px;
+}
+/******************EDUCATION*********************/
+.education{
+    background-color: #f6f0ed;
+    height: 320px;
+}
+.whole-table{
+    width: 803px;
+    border-spacing:0;
+}
+.table-left {
+    font-size: 17px;
+    font-family: helvetica,sans-serif;
+    color:#524e4e;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 210px; 
+}
+.table-left, .table-main {
+    border-bottom: 1.5px solid #a2633c;
+}
+
+.table-right {
+    font-size:15px;
+    font-family: helvetica, sans-serif;
+    color:#524e4e;
+    padding: 15px 0;
+}
+
+/*******************WORK EXPERIENCE************************/
+.heading-main-work {
+    width: 250px;
+}
+.company {
+    font-weight: bold;
+    line-height: 30px;
+}
+/*******************SKILLS************************/
+.heading-main-skills {
+    width:150px;
+}
+.skills {
+    background-color: #f6f0ed;
+    height: 580px;
+}
+/***********CONTACT***************/
+.contact{
+    margin-top: 35px;
+}
+.heading-main-contact{
+    width: 100px;
+}
+.adresses{
+    padding-top: 5px;
+    padding-left: 360px;
+    font-family: helvetica, sans-serif;
+    font-size: 15px;
+}
+.links{
+    margin-top:30px;
+}
+
+.facebook{
+    margin-right: 20px;
+}
+
+form input, form textarea{
+    height:30px;
+    width: 350px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 5px;
+}
+form textarea {
+    height: 150px;
+    padding-top: 5px;
+}
+
+form input[type=submit]{
+    background-color: #F6F0ED;
+    color:#524E4E;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+form input[type=submit]:hover{
+    background-color: #6f4949;
+    transition: background-color 0.5s;
+    color:white;
+}
+/*******************SKILLS************************/
+footer {
+    background-color: #603535;
+    height: 50px;
+    display:inline-block;
+    width: 100%;
+    margin-top: 30px;
+}
+footer p {
+    color: #ffffff;
+    font-family: helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/***********STOP FLOATING****************/
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
